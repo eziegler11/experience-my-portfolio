@@ -1,10 +1,12 @@
-// import { faGitHub } from '@fortawesome/fontawesome-svg-core/import.macro';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer() {
 	return (
 		<footer>
-			{/* <FontAwesomeIcon icon={faGitHub} flip />; */}
+			<FontAwesomeIcon icon={faGithub} flip />
+			<FontAwesomeIcon icon={faLinkedin} flip />
+			<FontAwesomeIcon icon={faInstagram} flip />
 		</footer>
 	);
 }
