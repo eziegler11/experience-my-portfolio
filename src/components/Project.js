@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Card from 'react-bootstrap/Card';
 import './Project.css';
 
-const Project = ({ index, title, github, link, image }) => {
+const Project = ({ title, github, link, image }) => {
 	return (
-		<div className={index === 0 ? 'card' : ['card', 'first-card'].join(' ')}>
+		<Card >
 			<a href={link}>
 				<Card.Img variant='top' src={image} alt={title} />
 			</a>
@@ -22,7 +22,7 @@ const Project = ({ index, title, github, link, image }) => {
 				</Card.Text> */}
 				{/* <Button variant="primary">Go somewhere</Button> */}
 			</Card.Body>
-		</div>
+		</Card>
 	);
 };
 

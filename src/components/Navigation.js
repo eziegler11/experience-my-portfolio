@@ -1,11 +1,21 @@
 import './Navigation.css';
-import './Portfolio.css';
+import './pages/Portfolio.css';
+import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
 	return (
 		<nav id='site-nav'>
 			<ul>
-				<li className='nav-item'>
+				<li>
+					<a
+						href='#home'
+						onClick={() => handlePageChange('Home')}
+						className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+					>
+						Home
+					</a>
+				</li>
+				<li>
 					<a
 						href='#about'
 						onClick={() => handlePageChange('About')}
@@ -14,7 +24,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						About
 					</a>
 				</li>
-				<li className='nav-item'>
+				<li>
 					<a
 						href='#portfolio'
 						onClick={() => handlePageChange('Portfolio')}
@@ -25,7 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						Portfolio
 					</a>
 				</li>
-				<li className='nav-item'>
+				<li>
 					<a
 						href='#contact'
 						onClick={() => handlePageChange('Contact')}
@@ -36,7 +46,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						Contact
 					</a>
 				</li>
-				<li className='nav-item'>
+				<li>
 					<a
 						href='#resume'
 						onClick={() => handlePageChange('Resume')}

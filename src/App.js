@@ -1,15 +1,15 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Portfolio from './components/Portfolio';
-import PortfolioContainer from './components/PortfolioContainer';
+// import Portfolio from './components/pages/Portfolio';
+// import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
 	return (
 		<>
 			<Header />
-			<Portfolio />
-			<PortfolioContainer />
+			{/* <Portfolio /> */}
+			{/* <PortfolioContainer /> */}
 			<Footer />
 		</>
 	);
@@ -28,4 +28,4 @@ export default App;
 // Need to have GitHub icon work as a link to take you to GitHub and have the image be a link to the deployed application
 
 // Have resume link to actual download of resume
-<a href='./resume.pdf'>My resumse</a>;
+// {/* <a href='./resume.pdf'>My resume</a>; */}

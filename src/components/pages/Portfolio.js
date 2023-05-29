@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 
 
 const Portfolio = () => {
@@ -36,7 +36,6 @@ const Portfolio = () => {
 					{projects.map((project, index) => (
 						<Project
 							key={index}
-							index={index}
 							title={project.title}
 							github={project.github}
 							link={project.link}
