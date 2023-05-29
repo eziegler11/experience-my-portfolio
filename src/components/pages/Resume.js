@@ -1,9 +1,9 @@
 const Resume = () => {
 	return (
 		<div>
-			<h1>Resume</h1>
+			<h3>Resume</h3>
 			<p>Download my <a href='www.google.com' >resume.</a></p>
-            <h2>Front-end Proficiencies</h2>
+            <h4>Front-end Proficiencies</h4>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -13,7 +13,7 @@ const Resume = () => {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <h2>Back-end Proficiencies</h2>
+            <h4>Back-end Proficiencies</h4>
             <ul>
                 <li>APIs</li>
                 <li>Node</li>

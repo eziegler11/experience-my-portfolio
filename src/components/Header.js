@@ -1,11 +1,11 @@
-import Navigation from "./Navigation";
-import "./Header.css"
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
 import React, { useState } from 'react';
+import './Header.css';
+import Navigation from './Navigation';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function Header() {
 	const [currentPage, setCurrentPage] = useState('Home');
@@ -30,15 +30,20 @@ function Header() {
 
 	return (
 		<>
-			<header id="header">
-				<div id="site-logo">
+			<header id='header'>
+				<div id='site-logo'>
 					<h1>Erich Ziegler</h1>
 					<h2>Coding in Colorado</h2>
 				</div>
-			<Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-			{renderPage()}
+				<div id='navigation'>
+					<Navigation
+						currentPage={currentPage}
+						handlePageChange={handlePageChange}
+					/>
+				</div>
 			</header>
-			<div className="clearfix"></div>
+			{renderPage()}
+			<div className='clearfix'></div>
 		</>
 	);
 }

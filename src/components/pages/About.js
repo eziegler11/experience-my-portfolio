@@ -2,7 +2,7 @@
 const About = () => {
   return (
 		<div>
-			<h1>About Erich</h1>
+			<h3>About Erich</h3>
 			<p>
 				Born and raised in Colorado, Erich comes from a background of tech and
 				real estate sales. Having spent the last 6 years as a realtor in Denver,

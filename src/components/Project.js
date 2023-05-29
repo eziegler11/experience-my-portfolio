@@ -5,8 +5,8 @@ import './Project.css';
 
 const Project = ({ title, github, link, image }) => {
 	return (
-		<Card >
-			<a href={link}>
+		<Card>
+			<a href={link} target='_blank' rel='noreferrer'>
 				<Card.Img variant='top' src={image} alt={title} />
 			</a>
 			<Card.Body>

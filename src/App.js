@@ -17,15 +17,11 @@ function App() {
 
 export default App;
 
-// Need to create a Pages folder, and make pages for About Me, Contact, Portfolio, and Resume
-
-// Within those pages, have text displaying the information for each page
-
-// Set up conditional rendering based on the Navigation bar and whichever is clicked and that page will render (see activity 24)
-
 // Add custom color palette, font and styling to the pages
 
-// Need to have GitHub icon work as a link to take you to GitHub and have the image be a link to the deployed application
+// Need to update links with correct deployed apps, update titles and link to correct github repo
 
 // Have resume link to actual download of resume
 // {/* <a href='./resume.pdf'>My resume</a>; */}
+
+// Add a contact form using bootstrap

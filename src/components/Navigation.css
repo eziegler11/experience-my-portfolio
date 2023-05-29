@@ -1,9 +1,14 @@
+nav { 
+   /* margin-left: auto;  */
+}
+
 #site-nav ul {
-    float:right;
-    list-style:none;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    width:400px;
     margin-top: 10px;
     margin-right:10px;
+}
+
+#site-nav ul li {
+    margin-left: 20px;
 }
