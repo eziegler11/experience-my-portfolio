@@ -1,5 +1,6 @@
 import Project from "./Project";
 
+
 const Portfolio = () => {
     const projects = [
 			{
@@ -29,20 +30,22 @@ const Portfolio = () => {
 		];
 
     return (
-        <div>
-            <h2>Portfolio</h2>
-            {projects.map((project, index) => (
-                <Project
-                    key={index}
-                    title={project.title}
-                    github={project.github}
-                    link={project.link}
-                    image={project.image}
-                />
-            ))
-            }
-        </div>
-    );
+			<div>
+				<h2>Portfolio</h2>
+				<div className='cards'>
+					{projects.map((project, index) => (
+						<Project
+							key={index}
+							index={index}
+							title={project.title}
+							github={project.github}
+							link={project.link}
+							image={project.image}
+						/>
+					))}
+				</div>
+			</div>
+		);
 };
 
 export default Portfolio;

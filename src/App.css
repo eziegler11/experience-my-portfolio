@@ -1,0 +1,6 @@
+.my-card {
+	width: 18rem !important;
+}
+.my-card:nth-index(1) {
+	width: 38rem !important;
+}
