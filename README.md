@@ -16,7 +16,7 @@ The steps to install my project are as follows:
 
 Here is a link to a video of the file running:
 
-[Link to my portfolio](https://drive.google.com/file/d/1O56G29md3QxZc18lMI9G1-bNivQNnLgU/view?usp=sharing)
+[Link to my portfolio](https://eziegler11.github.io/experience-my-portfolio/)
 
 ## License
 
