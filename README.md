@@ -1,9 +1,8 @@
 # Experience My Portfolio
-A social network created using MongoDB + Mongoose. Features users, friends, thoughts and reactions.
+A portfolio app created using React.
 
 ## Description
-
-I was motivated to create this project as a means to learn more about Sequelize and Express.JS within a real life application. I built this app in order to better understand the data flow and the principles of CRUD. From there, I utilized Sequelize to perform queries of my data, eliminating the need for MySQL queries myself. Diving into Sequelize really saved me a lot of time and made working with the database very seamless.
+I was motivated to create this project as a means to have an intuitive and user friendly website to display my portfolio. I also wanted more practice with React and building a single page application.
 
 ## Installation
 
@@ -11,24 +10,13 @@ The steps to install my project are as follows:
 
 - Clone or fork my code from GitHub
 - Install the required dependencies (Express Mongoose, Nodemon)
-- Run "npm run seed" to insert the testing data into MongoDB
 - Run the file from the command line using "npm run start"
-- Use Postman or Insomnia to interact with the server, as this app is not live
-- *Recommend* using Nodemon to restart your server automatically
 
 ## Usage
 
 Here is a link to a video of the file running:
 
-[Google Drive Video](https://drive.google.com/file/d/1O56G29md3QxZc18lMI9G1-bNivQNnLgU/view?usp=sharing)
-
-This is an example of getting all Users in Insomnia:
-
-![Getting All Users](assets/all_users.png)
-
-This is an example of getting all Thoughts in Insomnia:
-
-![Getting All Thoughts](assets/all_thoughts.png)
+[Link to my portfolio](https://drive.google.com/file/d/1O56G29md3QxZc18lMI9G1-bNivQNnLgU/view?usp=sharing)
 
 ## License
 
