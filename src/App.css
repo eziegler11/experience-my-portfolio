@@ -1,11 +1,37 @@
 body {
-	background-color: #606C38;
+	background-color: #606c38;
+	font-family: 'Bangers', cursive;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 20px;
+	color: #FEFAE0;
 }
 
 h1 {
-	color: #DDA15E;
+	color: #dda15e;
+	font: 50px 'Bangers', cursive;
 }
 
 h2 {
-	color: #FFD166;
+	color: #BC6C25;
+	font: 40px 'Barlow Condensed', sans-serif;
+}
+
+h3 {
+	margin: 10px;
+}
+
+h4 {
+	margin: 10px
+}
+
+p {
+	margin: 10px;
+}
+
+form {
+	margin: 10px;
+}
+
+ul {
+	margin: 10px;
 }

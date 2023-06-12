@@ -1,29 +1,30 @@
 import Project from "../Project";
 
 
+
 const Portfolio = () => {
     const projects = [
 			{
-				title: 'Project 1',
-				github: 'https://www.google.com',
+				title: 'The Social Network',
+				github: 'https://github.com/eziegler11/the-social-network',
 				link: 'https://www.google.com',
 				image: 'https://via.placeholder.com/150',
 			},
 			{
-				title: 'Project 2',
-				github: 'https://www.google.com',
+				title: 'Note Taking App',
+				github: 'https://github.com/eziegler11/note-taking-app',
 				link: 'https://www.google.com',
 				image: 'https://via.placeholder.com/150',
 			},
 			{
-				title: 'Project 3',
-				github: 'https://www.google.com',
+				title: 'Logo Generator',
+				github: 'https://github.com/eziegler11/logo-generator',
 				link: 'https://www.google.com',
 				image: 'https://via.placeholder.com/150',
 			},
 			{
-				title: 'Project 4',
-				github: 'https://www.google.com',
+				title: 'Best Selling Books',
+				github: 'https://github.com/eziegler11/bestselling-books',
 				link: 'https://www.google.com',
 				image: 'https://via.placeholder.com/150',
 			},

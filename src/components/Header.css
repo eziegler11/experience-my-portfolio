@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    background-color: #283618;
 }
 
 #header #site-logo {
-    /* float:left; */
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }

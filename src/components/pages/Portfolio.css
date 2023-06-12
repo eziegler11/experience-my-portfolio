@@ -1,5 +1,6 @@
 .cards {
 	display: flex;
+    flex-flow: column nowrap;
 	gap: 10px;
 	width: 90%;
 	margin: 0 auto;
@@ -13,10 +14,9 @@
     transition: all .3s ease-in-out;
 }
 .cards .card:hover {
-    opacity:1;
+    opacity: 1;
 }
 .cards .card:first-child {
-	min-width: 38rem !important;
-    height: 38rem !important;
-    border:1px solid black;
+	min-width: 30rem !important;
+    height: 30rem !important;
 }

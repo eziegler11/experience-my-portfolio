@@ -10,7 +10,7 @@ function Navigation({ currentPage, handlePageChange }) {
 					<a
 						href='#home'
 						onClick={() => handlePageChange('Home')}
-						className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+						className={currentPage === 'Home' ? 'active' : 'inactive'}
 					>
 						Home
 					</a>
@@ -19,7 +19,7 @@ function Navigation({ currentPage, handlePageChange }) {
 					<a
 						href='#about'
 						onClick={() => handlePageChange('About')}
-						className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+						className={currentPage === 'About' ? 'active' : 'inactive'}
 					>
 						About
 					</a>
@@ -29,7 +29,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						href='#portfolio'
 						onClick={() => handlePageChange('Portfolio')}
 						className={
-							currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
+							currentPage === 'Portfolio' ? 'active' : 'inactive'
 						}
 					>
 						Portfolio
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						href='#contact'
 						onClick={() => handlePageChange('Contact')}
 						className={
-							currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+							currentPage === 'Contact' ? 'active' : 'inactive'
 						}
 					>
 						Contact
@@ -51,7 +51,7 @@ function Navigation({ currentPage, handlePageChange }) {
 						href='#resume'
 						onClick={() => handlePageChange('Resume')}
 						className={
-							currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+							currentPage === 'Resume' ? 'active' : 'inactive'
 						}
 					>
 						Resume

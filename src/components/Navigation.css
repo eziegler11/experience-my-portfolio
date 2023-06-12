@@ -1,5 +1,5 @@
-nav { 
-   /* margin-left: auto;  */
+nav {
+    font: 25px 'Barlow Condensed', sans-serif;
 }
 
 #site-nav ul {
@@ -11,4 +11,16 @@ nav {
 
 #site-nav ul li {
     margin-left: 20px;
+}
+
+.active {
+    text-decoration: none;
+    color: #BC6C25;
+    transition: color 0.3s ease-in;
+}
+
+.inactive {
+    text-decoration: none;
+    color: #DDA15E;
+    transition: color 0.3s ease-in;
 }
